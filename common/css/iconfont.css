@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2961516 */
+  src: url('~@/static/iconfont/iconfont.woff2?t=1637724423967') format('woff2'),
+       url('~@/static/iconfont/iconfont.woff?t=1637724423967') format('woff'),
+       url('~@/static/iconfont/iconfont.ttf?t=1637724423967') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bottom:before {
+  content: "\e666";
+}
+
+.icon-bad:before {
+  content: "\e667";
+}
+
+.icon-arrow-double-left:before {
+  content: "\e665";
+}
+
+.icon-arrow-double-right:before {
+  content: "\e668";
+}
+
+.icon-direction-down-circle:before {
+  content: "\e66b";
+}
+
+.icon-home:before {
+  content: "\e674";
+}
+
+.icon-time:before {
+  content: "\e680";
+}
+
+.icon-arrow-left-bold:before {
+  content: "\e685";
+}
+
+.icon-close-bold:before {
+  content: "\e686";
+}
+
+.icon-arrow-right-filling:before {
+  content: "\e688";
+}
+
+.icon-bofang:before {
+  content: "\e798";
+}
+
+.icon-huodong:before {
+  content: "\e799";
+}
+
+.icon-shanchu:before {
+  content: "\e79a";
+}
+
+.icon-dianzan:before {
+  content: "\e79b";
+}
+
+.icon-sousuo:before {
+  content: "\e79c";
+}
+
+.icon-zanting:before {
+  content: "\e79d";
+}
+
+.icon-fenxiang:before {
+  content: "\e79f";
+}
+
