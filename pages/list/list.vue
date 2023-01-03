@@ -24,6 +24,7 @@
 						<text class="iconfont icon-fenxiang">分享给微信好友</text>
 					</button>
 				<!-- #endif -->
+				<ad adpid="1111111111" @load="onload" @close="onclose" @error="onerror"></ad>
 				<view class="list-music">
 					<view class="list-music-head">
 						<text class="iconfont icon-bofang"></text>
@@ -96,6 +97,15 @@
 				uni.navigateTo({
 					url:'/pages/detail/detail?songId=' + songId
 				})
+			},
+			onload(e) {
+			  console.log("onload");
+			},
+			onclose(e) {
+			  console.log("onclose: " + e.detail);
+			},
+			onerror(e) {
+			  console.log("onerror: " + e.detail.errCode + " message:: " + e.detail.errMsg);
 			}
 		}
 	}
